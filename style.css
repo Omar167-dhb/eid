@@ -1,0 +1,44 @@
+html,body{
+    background-color: #a9a0a0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.one {
+
+    color: #251e21;
+    text-align:center ;
+}  
+
+p{
+    font-size: 14px;
+    text-align:right;
+}
+h2{
+    padding: 10%;
+    border: 10px;
+    border-radius: 10cm;
+    background-color: aliceblue;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.content img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.content video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+h3{
+    text-align: right;
+}
