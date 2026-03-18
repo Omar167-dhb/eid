@@ -21,7 +21,7 @@ h2{
     background-color: aliceblue;
 }
 .content {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
     gap: 10px;
     margin-top: 20px;
     border-radius: 10px;
