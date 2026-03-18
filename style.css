@@ -21,20 +21,21 @@ h2{
     background-color: aliceblue;
 }
 .content {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 10px;
     margin-top: 20px;
     border-radius: 10px;
 }
 .content img {
-    display: block;
+    display:flex;
+    flex-direction: column;
     margin: 10px auto;
     max-width: 300px;
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 .content p{
 text-align: center;
@@ -45,7 +46,7 @@ text-align: center;
 .content video {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 h3{
     text-align: right;
@@ -65,6 +66,6 @@ h3{
     width: 100%;
     max-width: 300px;        
     height: auto;
-    border-radius: 8px;      
+    /* border-radius: 8px;       */
 }
 
