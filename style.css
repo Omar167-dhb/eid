@@ -21,7 +21,6 @@ h2{
     background-color: aliceblue;
 }
 .content {
-    /* display: grid; */
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 10px;
     margin-top: 20px;
@@ -66,6 +65,5 @@ h3{
     width: 100%;
     max-width: 300px;        
     height: auto;
-    /* border-radius: 8px;       */
 }
 
